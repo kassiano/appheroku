@@ -4,7 +4,7 @@
 
 <?php 
 
-	echo "TESTE HEROKU";
+	echo "TESTE HEROKU LOL LOL";
 
  ?>
 
