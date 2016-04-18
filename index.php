@@ -25,6 +25,8 @@
 
 	$Lista[] = array("id" => 10, "nome"=>"Carbonara", "preco"=>"39.00", "descricao" => "parmesão, catupiry, bacon e ovos");
 
+
+
 	echo json_encode($Lista); 
  ?>
 
