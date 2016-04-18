@@ -2,9 +2,9 @@
 
 <?php 
 
-	echo "teste";
 
-	$Lista = new array();
+
+	$Lista = array();
 
 	$Lista[] = array("id" => 1, "nome"=>"Mussarela", "preco"=>"32.00",  "descricao" => "mussarela e orégano");
 
@@ -28,7 +28,7 @@
 
 
 
-	//echo json_encode($Lista); 
+	echo json_encode($Lista); 
  ?>
 
 
