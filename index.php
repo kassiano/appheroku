@@ -6,10 +6,8 @@
 
 <html ng-app="heroku">
 <head>
-	<title>Smartfit</title>
+	<title>Lista Apps</title>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<script src="lib/Jquery/jquery.min.js"></script>
-	<script src="lib/jquery-ui-1.11.4/jquery-ui.js"></script>
 	<script src="lib/bootstrap/bootstrap-3.3.6-dist/js/bootstrap.js"></script>
 	<link rel="stylesheet" type="text/css" href="lib/jquery-ui-1.11.4/jquery-ui.css">
 	<link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap-3.3.6-dist/css/bootstrap.css">
@@ -39,31 +37,16 @@
 	<script type="text/javascript">
 
 
-		$(document).ready(function(){
-			
-			$('.datepicker').datepicker({
-			    dateFormat: 'yy-mm-dd',
-			    dayNames: ['Domingo','Segunda','Terça','Quarta','Quinta','Sexta','Sábado'],
-			    dayNamesMin: ['D','S','T','Q','Q','S','S','D'],
-			    dayNamesShort: ['Dom','Seg','Ter','Qua','Qui','Sex','Sáb','Dom'],
-			    monthNames: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
-			    monthNamesShort: ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'],
-			    nextText: 'Próximo',
-			    prevText: 'Anterior'
-			});	
-		});
-
 		angular.module("heroku",[]);
 
 
-		angular.module("heroku").controller("appsController", function($scope, $http){
+		angular.module("heroku").controller("appsController", function($scope){
 
 			$scope.apps = [
 				{ nome ="Pizzaria", link="pizzaria.php" },
 				{ nome ="Agencia Viagens", link="agencia.php" },
 				{ nome ="Concessionaria de veículos", link="concessionaria.php" }
 				{ nome ="Escola técnica", link="escola.php" }
-
 			];				
 
 			$scope.titulo = "Apps";
