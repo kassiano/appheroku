@@ -43,10 +43,10 @@
 		angular.module("heroku").controller("appsController", function($scope){
 
 			$scope.apps = [
-				{ nome:"Pizzaria", link:"pizzaria.php" },
-				{ nome :"Agencia Viagens", link:"agencia.php" },
-				{ nome :"Concessionaria de veículos", link:"concessionaria.php" },
-				{ nome :"Escola técnica", link:"escola.php" }
+				{ nome:"Pizzaria", link:"api/pizzaria.php" },
+				{ nome :"Agencia Viagens", link:"api/agencia.php" },
+				{ nome :"Concessionaria de veículos", link:"api/concessionaria.php" },
+				{ nome :"Escola técnica", link:"api/escola.php" }
 			];				
 
 			$scope.titulo = "Apps";
