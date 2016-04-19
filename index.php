@@ -45,7 +45,7 @@
 			$scope.apps = [
 				{ nome ="Pizzaria", link="pizzaria.php" },
 				{ nome ="Agencia Viagens", link="agencia.php" },
-				{ nome ="Concessionaria de veículos", link="concessionaria.php" }
+				{ nome ="Concessionaria de veículos", link="concessionaria.php" },
 				{ nome ="Escola técnica", link="escola.php" }
 			];				
 
